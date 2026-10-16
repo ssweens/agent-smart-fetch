@@ -43,7 +43,7 @@ pi install npm:pi-smart-fetch
 From a local checkout:
 
 ```bash
-gh repo clone Thinkscape/agent-smart-fetch
+gh repo clone ssweens/agent-smart-fetch
 pi install agent-smart-fetch/packages/pi-smart-fetch
 ```
 
