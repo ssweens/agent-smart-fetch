@@ -44,7 +44,10 @@ From a local checkout:
 
 ```bash
 gh repo clone ssweens/agent-smart-fetch
-pi install agent-smart-fetch/packages/pi-smart-fetch
+cd agent-smart-fetch
+bun install
+bun run build:pi
+pi install ./packages/pi-smart-fetch
 ```
 
 ## Pi tools
