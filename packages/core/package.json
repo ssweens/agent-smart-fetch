@@ -22,28 +22,28 @@
     "web-fetch",
     "tls-fingerprinting"
   ],
-  "main": "./dist/index.js",
+  "main": "./src/index.ts",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.js"
+      "import": "./src/index.ts"
     },
     "./extract": {
       "types": "./dist/extract.d.ts",
-      "import": "./dist/extract.js"
+      "import": "./src/extract.ts"
     },
     "./format": {
       "types": "./dist/format.d.ts",
-      "import": "./dist/format.js"
+      "import": "./src/format.ts"
     },
     "./tool": {
       "types": "./dist/tool.d.ts",
-      "import": "./dist/tool.js"
+      "import": "./src/tool.ts"
     },
     "./types": {
       "types": "./dist/types.d.ts",
-      "import": "./dist/types.js"
+      "import": "./src/types.ts"
     }
   },
   "files": [
